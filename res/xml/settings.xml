@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	  <PreferenceCategory android:title="Sysmetric">
+	         <ListPreference
+			  android:key="listPrefUnit"
+			  android:dialogTitle="Choose a unit"
+			  android:entries="@array/list_units"
+			  android:entryValues="@array/list_units"
+			  android:summary="Choose a unit" 
+			  android:defaultValue="@string/metricUnitDefault" />
+	  </PreferenceCategory> 
+	  
+	  <PreferenceCategory android:title="Sensitivity">
+	         <ListPreference
+			  android:key="listPrefSensitivity"
+			  android:dialogTitle="Sensitivity"
+			  android:entries="@array/list_sensitivity"
+			  android:entryValues="@array/list_sensitivity"
+			  android:summary="Choose the sensitivity" 
+			  android:defaultValue="@string/sensitivitySensorDefault" />
+	  </PreferenceCategory>
+	  <PreferenceCategory android:title="Metric Mode">
+	         <ListPreference
+			  android:key="listPrefMetricMode"
+			  android:dialogTitle="Metric Mode"
+			  android:entries="@array/list_metricMode"
+			  android:entryValues="@array/list_metricMode"
+			  android:summary="Choose the Metric Mode" 
+			  android:defaultValue="@string/metricModeDefault" />
+	  </PreferenceCategory>
+	  
+	  	  <PreferenceCategory android:title="Step Length">
+	         <EditTextPreference 
+            	android:summary="@string/title_step_length" 
+            	android:key="prefStepLength"
+            	android:defaultValue="@string/stepLengthDefault">
+	         </EditTextPreference>
+	  </PreferenceCategory> 
+	  
+	  <PreferenceCategory android:title="Weight">
+	         <EditTextPreference 
+            	android:summary="@string/title_weight" 
+            	android:key="prefWeight"
+            	android:defaultValue="@string/weightDefault">
+	         </EditTextPreference>
+	  </PreferenceCategory>
+</PreferenceScreen>

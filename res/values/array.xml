@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="list_units">
+	    <item>KM</item>
+	    <item>Miles</item>
+  	</array>
+  	<array name="list_sensitivity">
+	    <item>Low</item>
+	    <item>Medium</item>
+	    <item>High</item>
+  	</array>
+  	<array name="list_exercises">
+	    <item>Free</item>
+	    <item>Duration</item>
+	    <item>Distance</item>
+  	</array>
+  	
+  	<array name="list_metricMode">
+	    <item>Walking</item>
+	    <item>Running</item>
+  	</array>
+</resources>

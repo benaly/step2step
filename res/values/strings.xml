@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Step2Step</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="principal">PRINCIPAL</string>
+	<string name="second">SECOND</string>
+	<string name="up_left">Up Left</string>
+	<string name="up_right">Up Right</string>
+	<string name="down_left">Down Left</string>
+	<string name="down_right">Down Right</string>
+	<string name="share_icon">Share Icon</string>
+	<string name="duration_text">DURATION</string>
+	<string name="duration_count">00:00:00</string>
+	<string name="distance_text">DISTANCE</string>
+	<string name="distance_count">0,00</string>
+	<string name="distance_unit">km</string>
+	<string name="speed_icon">Speed Icon</string>
+	<string name="speed_average">Speed Average</string>
+	<string name="mountain">Mountain</string>
+	<string name="calorie_icon">Calorie</string>
+	<string name="speed_count">0</string>
+	<string name="speed_unit">km/h</string>
+	<string name="speed_text">Speed</string>
+	<string name="average_speed_text">Average speed</string>
+	<string name="average_speed_count">0</string>
+	<string name="calorie_count">0</string>
+	<string name="calorie_text">Calories</string>
+	<string name="altitude_text">Altitude</string>
+	<string name="altitude_count">0</string>
+	<string name="altitude_unity">m</string>
+	<string name="start">Start</string>
+	<string name="pause">Pause</string>
+	<string name="stop">Stop</string>
+	<string name="free">Free</string>
+	<string name="lock">Lock</string>
+	<string name="duration_icon">Duration Icon</string>
+	<string name="distance_icon">Distance Icon</string>
+	<string name="free_run">∞</string>
+	<string name="duration_hour">Hours</string>
+	<string name="duration_minute">Minutes</string>
+	<string name="dialog_submit">OK</string>
+	<string name="dialog_cancel">Cancel</string>
+	<string name="goal_text">GOAL</string>
+	<string name="goal_count"></string>
+	<string name="enter_duration">Enter duration</string>
+	<string name="enter_distance">Enter distance</string>
+	<string name="settings">Settings</string>
+	<string name="title_step_length">Enter a length step</string>
+    <string name="title_weight">Enter your weight</string>
+    <string name="title_metricMode">Enter metric mode</string>
+    
+    <string name="metricUnitDefault">KM</string>
+    <string name="sensitivitySensorDefault">Medium</string>
+    <string name="metricModeDefault">Walking</string>
+    <string name="stepLengthDefault">0.6</string>
+    <string name="weightDefault">70</string>
+</resources>
